@@ -29,7 +29,6 @@ public class Registration {
 	
  @BeforeClass (enabled=true)
  public void normalTest() throws MalformedURLException, Exception {
-	  System.out.println("For Git Test");
 	 driver = new FirefoxDriver();
 	 driver.get("http://www.oyepages.com/user/auth");
 	 driver.manage().window().maximize();
