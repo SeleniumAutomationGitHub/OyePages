@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OyePages Test Suite]">
+  <test name="Test Result on Firefox(failed)">
+    <classes>
+      <class name="page.registration.Registration">
+        <methods>
+          <include name="seleniumGridTest"/>
+          <include name="titleTest"/>
+        </methods>
+      </class> <!-- page.registration.Registration -->
+    </classes>
+  </test> <!-- Test Result on Firefox(failed) -->
+</suite> <!-- Failed suite [OyePages Test Suite] -->
