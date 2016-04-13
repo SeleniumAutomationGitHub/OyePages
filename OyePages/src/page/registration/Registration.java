@@ -60,9 +60,12 @@ public class Registration {
 	  
 	  String title = driver.getTitle();
 	 // Assert.assertEquals(title.contains("OyePages"), true, "Not navigate properly");
+	  driver.findElement(By.xpath("//*[@id='focusUserName']")).sendKeys("praveen@gamil.com");
+	  
+	  
  }
  
-  @Test(priority = 2, enabled=true)
+  @Test(priority = 2, enabled=false)
   public void refreshTest() throws Exception {
 	  
 	  String title = driver.getTitle();
